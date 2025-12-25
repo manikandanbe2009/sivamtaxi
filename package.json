@@ -9,15 +9,38 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "bootstrap": "^5.3.8",
+    "bootstrap-icons": "^1.13.1",
+    "chart.js": "^4.5.1",
+    "exceljs": "^4.4.0",
+    "mysql2": "^3.16.0",
     "next": "16.1.1",
+    "nodemailer": "^7.0.12",
     "react": "19.2.3",
+    "react-chartjs-2": "^5.3.1",
     "react-dom": "19.2.3"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
+    "@types/react": "19.2.7",
     "babel-plugin-react-compiler": "1.0.0",
     "eslint": "^9",
-    "eslint-config-next": "16.1.1",
-    "tailwindcss": "^4"
-  }
+    "eslint-config-next": "16.1.1"
+  },  "engines": {
+    "node": ">=18.0.0"
+  },  "license": "MIT"
+  ,  "eslintConfig": {
+    "extends": "next/core-web-vitals"
+  },  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  } 
 }
