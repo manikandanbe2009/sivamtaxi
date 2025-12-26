@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 "use client";
 
 import { useEffect, useState } from "react";
@@ -329,7 +328,7 @@ export default function AdminBookings() {
         </div>
     );
 }
-=======
+
 "use client";
 
 import { useEffect, useState } from "react";
@@ -660,4 +659,3 @@ export default function AdminBookings() {
         </div>
     );
 }
->>>>>>> 67886b3d4e54dfae9e1864a230271ec22ed9722b
