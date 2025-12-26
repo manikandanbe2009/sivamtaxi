@@ -22,16 +22,20 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
+    "@types/nodemailer": "^7.0.4",
     "@types/react": "19.2.7",
     "babel-plugin-react-compiler": "1.0.0",
     "eslint": "^9",
     "eslint-config-next": "16.1.1"
-  },  "engines": {
+  },
+  "engines": {
     "node": ">=18.0.0"
-  },  "license": "MIT"
-  ,  "eslintConfig": {
+  },
+  "license": "MIT",
+  "eslintConfig": {
     "extends": "next/core-web-vitals"
-  },  "browserslist": {
+  },
+  "browserslist": {
     "production": [
       ">0.2%",
       "not dead",
@@ -42,5 +46,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  } 
+  }
 }

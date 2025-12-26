@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
-import { db } from "../../../../lib/db";
-import { sendBookingEmail } from "../../../../lib/mailer";
+import { db } from "../../../lib/db";
+import { sendBookingEmail } from "../../../lib/mailer";
 export async function POST(req) {
     try {
         const body = await req.json();
